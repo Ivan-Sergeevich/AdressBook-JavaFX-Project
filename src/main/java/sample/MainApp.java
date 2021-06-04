@@ -35,15 +35,11 @@ public class MainApp extends Application {
     private final ObservableList<Person> personData = FXCollections.observableArrayList();
 
     public MainApp() {
-        personData.add(new Person("Hans", "Muster", "Street 1", "Moscow", 1532, 1990,5,25));
-        personData.add(new Person("Ruth", "Mueller", "Street 1", "Moscow", 1532, 1992,3,14));
-        personData.add(new Person("Heinz", "Kurz", "Street 1", "Moscow", 1532, 1991,7,18));
-        personData.add(new Person("Cornelia", "Meier", "Street 1", "Moscow", 1532,  1990,5,25));
-        personData.add(new Person("Werner", "Meyer", "Street 1", "Moscow", 1532, 1992,3,14));
-        personData.add(new Person("Lydia", "Kunz", "Street 1", "Moscow", 1532, 1990,5,25));
-        personData.add(new Person("Anna", "Best", "Street 1", "Moscow",1532, 1991,7,18));
-        personData.add(new Person("Stefan", "Meier", "Street 1", "Moscow", 1532, 1992,3,14));
-        personData.add(new Person("Martin", "Mueller", "Street 1", "Moscow",1532, 1990,5,25));
+        personData.add(new Person("Иван", "Иванов", "Улица 1", "Москва", 1111, 1990,5,25));
+        personData.add(new Person("Пётр", "Петров", "Улица 2", "Владимир", 1532, 1992,3,14));
+        personData.add(new Person("Степан", "Степанов", "Улица 3", "Пермь", 1532, 1991,7,18));
+        personData.add(new Person("Семён", "Семёнов", "Улица 4", "Екатеринбург", 1532,  1990,5,25));
+        personData.add(new Person("Сергей", "Сергеев", "Улица 5", "Нижний Новгород", 1532, 1992,3,14));
     }
 
     public ObservableList<Person> getPersonData() {
